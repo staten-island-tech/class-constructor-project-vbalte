@@ -14,8 +14,8 @@ html{
     margin: 2rem auto;
     padding-top: 1rem;
     padding-bottom: 1rem;
-    background-color: #418c99;
-    color:pink;
+    background-color: #952baf;
+    color:green;
     height:60 vh;
     /*viewport height*/
     text-transform:uppercase;
@@ -79,14 +79,15 @@ html{
 }
  
 .btn-red{
-    background-color: #5563df;
-    color:red;
+    background-color: #a01515;
+    color:pink;
 }
 
 .display{
     display:flex;
     align-items:center;
     justify-content: space-between;
+    flex-direction: column; 
     height: 10rem;
     font-size:2.2rem;
     width: 80vw;
